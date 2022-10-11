@@ -21,3 +21,14 @@ header a{
     color: white;
     text-decoration: none;
     font-size: .875rem;
+}
+/* /HEADER */
+
+/* MAIN */
+
+/* HERO */
+
+.hero{
+    background-color: #1abc9c;
+    color: white;
+}
