@@ -70,3 +70,21 @@ header a{
 /* CONTACT ME */
 
 /* /CONTACT ME */
+
+/* /MAIN */
+
+/* FOOTER */
+
+/* FOOTER-INFO */
+
+footer{
+    background-color: #3a546d;
+    color: white;
+}
+
+footer a{
+    text-decoration: none;
+    color: #1abc9c;
+}
+
+/* /FOOTER */
