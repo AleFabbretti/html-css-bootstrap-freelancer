@@ -92,6 +92,14 @@ header .collapse{
     color: white;
 }
 
+.about button{
+    background-color: #1abc9c;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: .875rem;
+}
+
 /* /ABOUT */
 
 /* CONTACT ME */
