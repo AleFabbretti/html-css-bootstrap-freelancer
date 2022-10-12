@@ -3,6 +3,32 @@
 @import url(utilities.css);
 /* /CORE */
 
+/* COMMON */
+.spacer {
+    font-size: 1.25rem;
+}
+
+.spacer::after {
+    content: '';
+    width: 8.125rem;
+    height: .125rem;
+    background-color: currentColor;
+    border-color: currentColor;
+    display: block;
+    margin-left: 1.25rem;
+}
+
+.spacer::before {
+    content: '';
+    width: 8.125rem;
+    height: .125rem;
+    background-color: currentColor;
+    border-color: currentColor;
+    display: block;
+    margin-right: 1.25rem;
+}
+/* /COMMON */
+
 
 /* HEADER */
 
@@ -32,7 +58,6 @@ header .collapse{
 /* MAIN */
 
 /* HERO */
-
 .hero{
     color: white;
 }
@@ -41,30 +66,6 @@ header .collapse{
     max-width: 14.375rem;
     margin-left: auto;
     margin-right: auto;
-}
-
-.spacer {
-    font-size: 1.25rem;
-}
-
-.spacer::after {
-    content: '';
-    width: 8.125rem;
-    height: .125rem;
-    background-color: currentColor;
-    border-color: currentColor;
-    display: block;
-    margin-left: 20px;
-}
-
-.spacer::before {
-    content: '';
-    width: 8.125rem;
-    height: .125rem;
-    background-color: currentColor;
-    border-color: currentColor;
-    display: block;
-    margin-right: 20px;
 }
 /* /HERO */
 
