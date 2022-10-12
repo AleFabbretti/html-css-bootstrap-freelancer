@@ -110,7 +110,7 @@
                         Wheather you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
                     </div>
                 </div>
-                <button class="d-flex align-items-center ms-button mx-auto  py-1"><i class="fa-solid fa-download px-2"></i> Download</button>
+                <button class="d-flex align-items-center ms-button mx-auto ms-bg-primary py-1"><i class="fa-solid fa-download px-2"></i> Download</button>
             </div>
         </section>
     <!-- /about -->
@@ -119,18 +119,28 @@
         <section class="contact-me">
             <div class="container ms-container-small py-5">
                 <h2 class="text-center">CONTACT ME</h2>
-                <hr>
+                <div class="spacer d-flex justify-content-center align-items-center py-3">
+                    <i class="fa-solid fa-star"></i>
+                </div>
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-8 col-xl-10">
-                        <div>Name</div>
-                        <hr>
-                        <div>Email Address</div>
-                        <hr>
-                        <div>Phone number</div>
-                        <hr>
-                        <div>Message</div>
-                        <hr>
-                        <button class="ms-button">Send</button>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1">Name</label>
+                            <input type="email" class="form form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1">Email address</label>
+                            <input type="email" class="form form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1">Phone Number</label>
+                            <input type="email" class="p-absolute form form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea class="form form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button class="ms-button ms-bg-primary px-2 py-2">Send</button>
                     </div>
                 </div>
             </div>

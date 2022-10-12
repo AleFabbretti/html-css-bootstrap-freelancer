@@ -93,7 +93,6 @@ header .collapse{
 }
 
 .about button{
-    background-color: #1abc9c;
     color: white;
     border: 1px solid white;
     border-radius: 5px;
@@ -103,7 +102,18 @@ header .collapse{
 /* /ABOUT */
 
 /* CONTACT ME */
+.contact-me .form{
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid lightgray;
+} 
 
+.contact-me button{
+    color: white;
+    border-radius: 5px;
+    border: 1px solid;
+}
 /* /CONTACT ME */
 
 /* /MAIN */
