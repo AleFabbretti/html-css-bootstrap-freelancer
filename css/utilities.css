@@ -11,6 +11,15 @@
 /* /BACKGROUND COLORS */
 
 /* COLORS */
+.ms-color-primary{
+    color:var(--ms-primary-color)
+}
+.ms-color-secondary {
+    color:var(--ms-secondary-color);
+}
+.ms-color-secondary-light {
+    color:var(--ms-secondary-color-light)
+}
 
 /* /COLORS */
 
