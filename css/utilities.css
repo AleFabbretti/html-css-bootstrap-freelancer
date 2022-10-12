@@ -24,5 +24,8 @@
 /* /COLORS */
 
 /* CONTAINER */
-
+.ms-container-small {
+    max-width: 61.25rem;
+    width: 80%;
+}
 /* /CONTAINER */
